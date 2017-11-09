@@ -20,9 +20,15 @@ namespace ExtractionEpeires
     /// </summary>
     public partial class MainWindow : Window
     {
+        private EventSearchViewModel viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            viewModel = new EventSearchViewModel();
+
+            DataContext = viewModel;
         }
     }
 }

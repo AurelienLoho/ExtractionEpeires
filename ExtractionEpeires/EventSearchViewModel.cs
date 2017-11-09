@@ -74,10 +74,10 @@ namespace ExtractionEpeires
 
             // Filtrage
 
-            if(!string.IsNullOrWhiteSpace(_searchText))
-            {
-                events = events.Where(x => x.Title.Contains(_searchText)).ToList();
-            }
+            //if(!string.IsNullOrWhiteSpace(_searchText))
+            //{
+            //    events = events.Where(x => x.Title.Contains(_searchText)).ToList();
+            //}
 
             // Sauvegarde dans fichier csv
 
